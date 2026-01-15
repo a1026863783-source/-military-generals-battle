@@ -1,0 +1,406 @@
+{
+    "motifDefinitions": {
+        "double_envelopment": {
+            "nameZh": "双重包围",
+            "description": "对敌军实施两翼包抄，形成合围态势",
+            "scoreAdjustments": {
+                "infoAsymmetry": 4,
+                "commandEntropy": 3,
+                "environmentConversion": 2
+            }
+        },
+        "feigned_retreat": {
+            "nameZh": "佯退诱敌",
+            "description": "假装撤退引诱敌军追击，再反戈一击",
+            "scoreAdjustments": {
+                "infoAsymmetry": 4,
+                "errorTolerance": 2
+            }
+        },
+        "terrain_funneling": {
+            "nameZh": "地形漏斗",
+            "description": "利用隘口、渡口等地形限制敌军展开",
+            "scoreAdjustments": {
+                "environmentConversion": 4,
+                "organizationGranularity": 2
+            }
+        },
+        "shock_morale_anchor": {
+            "nameZh": "士气锚定",
+            "description": "背水一战、破釜沉舟等激励士气的战术",
+            "scoreAdjustments": {
+                "moraleAnchor": 5,
+                "errorTolerance": 2
+            }
+        },
+        "operational_depth": {
+            "nameZh": "战略纵深",
+            "description": "多次连续会战、远程机动作战",
+            "scoreAdjustments": {
+                "strategicDepth": 5,
+                "multiLineCooperation": 2
+            }
+        },
+        "deception_intel_gap": {
+            "nameZh": "信息不对称",
+            "description": "制造情报差距，使敌方判断失误",
+            "scoreAdjustments": {
+                "infoAsymmetry": 5,
+                "commandEntropy": 2
+            }
+        },
+        "logistics_conversion": {
+            "nameZh": "后勤转化",
+            "description": "高效的补给管理和资源利用",
+            "scoreAdjustments": {
+                "resourceConversion": 5,
+                "troopConversion": 2
+            }
+        },
+        "coalition_command": {
+            "nameZh": "联军指挥",
+            "description": "协调多国或多族群军队作战",
+            "scoreAdjustments": {
+                "multiLineCooperation": 5,
+                "organizationGranularity": 2,
+                "commanderCharisma": 2
+            }
+        }
+    },
+    "keywords": {
+        "zh": {
+            "double_envelopment": [
+                "包围",
+                "合围",
+                "两翼",
+                "钳形",
+                "包抄",
+                "夹击"
+            ],
+            "feigned_retreat": [
+                "佯退",
+                "诱敌",
+                "假装撤退",
+                "诱敌深入",
+                "回马枪"
+            ],
+            "terrain_funneling": [
+                "隘口",
+                "渡口",
+                "峡谷",
+                "关隘",
+                "险要",
+                "一夫当关"
+            ],
+            "shock_morale_anchor": [
+                "背水",
+                "破釜沉舟",
+                "誓师",
+                "死战",
+                "置之死地",
+                "哀兵"
+            ],
+            "operational_depth": [
+                "纵深",
+                "远征",
+                "长驱",
+                "机动",
+                "闪击",
+                "千里"
+            ],
+            "deception_intel_gap": [
+                "声东击西",
+                "疑兵",
+                "虚实",
+                "情报",
+                "间谍",
+                "暗度陈仓"
+            ],
+            "logistics_conversion": [
+                "粮草",
+                "补给",
+                "辎重",
+                "就地取材",
+                "以战养战"
+            ],
+            "coalition_command": [
+                "联军",
+                "盟军",
+                "诸侯",
+                "多国",
+                "联合",
+                "同盟"
+            ]
+        },
+        "en": {
+            "double_envelopment": [
+                "envelopment",
+                "encirclement",
+                "pincer",
+                "flanking",
+                "surround"
+            ],
+            "feigned_retreat": [
+                "feigned retreat",
+                "false retreat",
+                "lure",
+                "bait"
+            ],
+            "terrain_funneling": [
+                "pass",
+                "ford",
+                "choke point",
+                "defile",
+                "narrow"
+            ],
+            "shock_morale_anchor": [
+                "last stand",
+                "do or die",
+                "backs to the wall",
+                "death ground"
+            ],
+            "operational_depth": [
+                "deep operation",
+                "maneuver",
+                "blitzkrieg",
+                "strategic depth"
+            ],
+            "deception_intel_gap": [
+                "deception",
+                "feint",
+                "intelligence",
+                "spy",
+                "misinformation"
+            ],
+            "logistics_conversion": [
+                "logistics",
+                "supply",
+                "foraging",
+                "living off the land"
+            ],
+            "coalition_command": [
+                "coalition",
+                "alliance",
+                "combined",
+                "multinational",
+                "allied"
+            ]
+        }
+    },
+    "battleMappings": [
+        {
+            "titles": [
+                "Battle of Cannae",
+                "坎尼会战",
+                "坎尼战役",
+                "Bataille de Cannes"
+            ],
+            "motifs": [
+                "double_envelopment",
+                "deception_intel_gap"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Gaixia",
+                "垓下之战",
+                "Bataille de Gaixia"
+            ],
+            "motifs": [
+                "double_envelopment",
+                "shock_morale_anchor",
+                "deception_intel_gap"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Jingxing",
+                "井陉之战",
+                "背水一战",
+                "Battle of the Jingxing Pass"
+            ],
+            "motifs": [
+                "shock_morale_anchor",
+                "terrain_funneling",
+                "deception_intel_gap"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Red Cliffs",
+                "赤壁之战",
+                "Bataille de la Falaise rouge"
+            ],
+            "motifs": [
+                "deception_intel_gap",
+                "terrain_funneling",
+                "coalition_command"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Thermopylae",
+                "温泉关战役",
+                "テルモピュライの戦い"
+            ],
+            "motifs": [
+                "terrain_funneling",
+                "shock_morale_anchor"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Austerlitz",
+                "奥斯特里茨战役",
+                "三皇会战"
+            ],
+            "motifs": [
+                "deception_intel_gap",
+                "double_envelopment",
+                "terrain_funneling"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Changping",
+                "长平之战"
+            ],
+            "motifs": [
+                "double_envelopment",
+                "logistics_conversion"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Sedan",
+                "色当战役"
+            ],
+            "motifs": [
+                "double_envelopment",
+                "operational_depth"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Tannenberg",
+                "坦能堡战役"
+            ],
+            "motifs": [
+                "double_envelopment",
+                "deception_intel_gap"
+            ]
+        },
+        {
+            "titles": [
+                "Operation Barbarossa",
+                "巴巴罗萨行动"
+            ],
+            "motifs": [
+                "operational_depth",
+                "coalition_command"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Stalingrad",
+                "斯大林格勒战役"
+            ],
+            "motifs": [
+                "double_envelopment",
+                "shock_morale_anchor",
+                "logistics_conversion"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Zama",
+                "扎马战役"
+            ],
+            "motifs": [
+                "double_envelopment",
+                "feigned_retreat"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Gaugamela",
+                "高加米拉战役"
+            ],
+            "motifs": [
+                "operational_depth",
+                "double_envelopment"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Waterloo",
+                "滑铁卢战役"
+            ],
+            "motifs": [
+                "coalition_command",
+                "terrain_funneling"
+            ]
+        },
+        {
+            "titles": [
+                "Siege of Constantinople",
+                "君士坦丁堡围城战"
+            ],
+            "motifs": [
+                "logistics_conversion",
+                "terrain_funneling"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Hastings",
+                "黑斯廷斯战役"
+            ],
+            "motifs": [
+                "feigned_retreat",
+                "shock_morale_anchor"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Tours",
+                "图尔战役",
+                "普瓦捷战役"
+            ],
+            "motifs": [
+                "terrain_funneling",
+                "shock_morale_anchor"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Ain Jalut",
+                "艾因贾鲁特战役"
+            ],
+            "motifs": [
+                "feigned_retreat",
+                "terrain_funneling"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Sekigahara",
+                "关原之战"
+            ],
+            "motifs": [
+                "deception_intel_gap",
+                "coalition_command"
+            ]
+        },
+        {
+            "titles": [
+                "Battle of Gettysburg",
+                "葛底斯堡战役"
+            ],
+            "motifs": [
+                "terrain_funneling",
+                "coalition_command"
+            ]
+        }
+    ]
+}

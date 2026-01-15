@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全时空军事名将乱战</title>
+    <meta name="description" content="跨越时空的军事名将对战游戏，选择历史上的传奇统帅进行回合制对决">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="header">
+        <h1>全时空军事名将乱战</h1>
+        <p class="subtitle">跨越时空的传奇对决</p>
+    </header>
+
+    <!-- 阶段提示 -->
+    <div id="phase-hint">选择名将 (红方回合)</div>
+
+    <!-- 主容器 -->
+    <div class="main-container">
+        <!-- 左侧：选将面板 -->
+        <div class="left-panel">
+            <!-- 选将面板 -->
+            <section id="selection-panel" class="panel">
+                <h2>⚔️ 选择名将</h2>
+
+                <!-- 筛选栏 -->
+                <div class="filter-bar">
+                    <input type="text" id="search-input" placeholder="搜索名将...">
+                    <select id="region-filter">
+                        <option value="">全部地区</option>
+                        <option value="EastAsia">东亚</option>
+                        <option value="Europe">欧洲</option>
+                        <option value="MediterraneanMiddleEast">地中海与中东</option>
+                        <option value="SouthAsia">南亚</option>
+                        <option value="Americas">美洲</option>
+                    </select>
+                </div>
+
+                <!-- 名将网格 -->
+                <div id="general-grid"></div>
+            </section>
+
+            <!-- 地形选择面板 -->
+            <section id="terrain-panel" class="panel hidden">
+                <h2>🗺️ 选择战场地形</h2>
+                <div id="terrain-grid"></div>
+
+                <div class="button-group">
+                    <button id="start-battle-btn" class="btn btn-primary" disabled>
+                        ⚔️ 开始战斗
+                    </button>
+                </div>
+            </section>
+
+            <!-- 战斗面板 -->
+            <section id="battle-panel" class="panel hidden">
+                <h2>📜 战斗记录</h2>
+                <div id="battle-log"></div>
+
+                <div class="button-group">
+                    <button id="restart-btn" class="btn btn-primary hidden">
+                        🔄 再战一场
+                    </button>
+                </div>
+            </section>
+        </div>
+
+        <!-- 右侧：已选名将 -->
+        <div class="right-panel">
+            <section class="panel">
+                <h2>🎯 参战名将</h2>
+                <div class="selected-generals">
+                    <div id="selected-general-1" class="selected-slot">
+                        <div class="empty-slot">
+                            <span class="slot-icon">👤</span>
+                            <span class="slot-text">选择红方名将</span>
+                        </div>
+                    </div>
+                    <div id="selected-general-2" class="selected-slot">
+                        <div class="empty-slot">
+                            <span class="slot-icon">👤</span>
+                            <span class="slot-text">选择蓝方名将</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 游戏说明 -->
+            <section class="panel">
+                <h2>📖 游戏说明</h2>
+                <div class="game-info">
+                    <p><strong>游戏流程：</strong></p>
+                    <ol>
+                        <li>红蓝双方各选一位名将</li>
+                        <li>选择战斗地形</li>
+                        <li>观看6阶段回合制战斗</li>
+                        <li>查看战斗结果与分析</li>
+                    </ol>
+                    <p><strong>战斗阶段：</strong></p>
+                    <ul>
+                        <li>📍 侦察 - 信息不对称 & 指挥熵</li>
+                        <li>📍 机动 - 战略纵深 & 环境转化</li>
+                        <li>📍 交战 - 战斗值 & 战损比</li>
+                        <li>📍 后勤 - 资源转化 & 组织度</li>
+                        <li>📍 士气 - 士气锚定 & 统帅魅力</li>
+                        <li>📍 追击 - 多线协作 & 政治抗性</li>
+                    </ul>
+                    <p><strong>公平机制：</strong></p>
+                    <p>每位名将都有 C/Q 元参数影响评分收缩，低证据质量的名将分数向均值回归。sigma 参数引入随机性，让战斗充满变数。</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- 脚本 -->
+    <script src="data.js"></script>
+    <script src="combat.js"></script>
+    <script src="app.js"></script>
+
+    <style>
+        /* 游戏说明样式 */
+        .game-info {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .game-info p {
+            margin-bottom: 10px;
+        }
+
+        .game-info strong {
+            color: var(--accent-gold);
+        }
+
+        .game-info ol,
+        .game-info ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .game-info li {
+            margin-bottom: 5px;
+        }
+    </style>
+</body>
+
+</html>

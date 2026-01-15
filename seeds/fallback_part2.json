@@ -1,0 +1,417 @@
+[
+    {
+        "id": "hanxin",
+        "name": "韩信",
+        "wikiTitleByLang": {
+            "en": "Han Xin",
+            "zh": "韩信"
+        },
+        "qid": "Q334758",
+        "region": "EastAsia",
+        "era": "Classical",
+        "tags": [
+            "strategist",
+            "tactical_genius",
+            "infantry"
+        ],
+        "motifs": [
+            "shock_morale_anchor",
+            "terrain_funneling",
+            "deception_intel_gap",
+            "double_envelopment"
+        ],
+        "scores": {
+            "battleValue": 95,
+            "strategicDepth": 90,
+            "casualtyRatio": 92,
+            "opponentWeight": 88,
+            "techEnvironment": 68,
+            "commandEntropy": 95,
+            "environmentConversion": 92,
+            "politicalResistance": 35,
+            "errorTolerance": 80,
+            "multiLineCooperation": 78,
+            "resourceConversion": 75,
+            "organizationGranularity": 85,
+            "troopConversion": 88,
+            "infoAsymmetry": 95,
+            "moraleAnchor": 98,
+            "commanderCharisma": 75,
+            "conquestStability": 40,
+            "institutionalInnovation": 55
+        },
+        "meta": {
+            "coverageC": 0.92,
+            "qualityQ": 0.88,
+            "sigma": 4.8
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q334758",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Han_Xin",
+                "zh": "https://zh.wikipedia.org/wiki/韩信"
+            },
+            "pageviews365ByLang": {
+                "en": 120000,
+                "zh": 850000
+            },
+            "totalPageviews365": 970000,
+            "extractedKeywords": [
+                "背水一战",
+                "井陉之战",
+                "十面埋伏",
+                "垓下之战",
+                "明修栈道暗度陈仓"
+            ]
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of Jingxing",
+                    "zh": "井陉之战"
+                },
+                "matchedMotifs": [
+                    {
+                        "motif": "shock_morale_anchor",
+                        "source": "keyword",
+                        "evidence": "《史记·淮阴侯列传》：背水一战，置之死地而后生"
+                    }
+                ]
+            },
+            {
+                "titleByLang": {
+                    "en": "Battle of Gaixia",
+                    "zh": "垓下之战"
+                },
+                "matchedMotifs": [
+                    {
+                        "motif": "double_envelopment",
+                        "source": "mapping",
+                        "evidence": "十面埋伏"
+                    }
+                ]
+            }
+        ],
+        "birthYear": -231,
+        "deathYear": -196
+    },
+    {
+        "id": "sunwu",
+        "name": "孙武",
+        "wikiTitleByLang": {
+            "en": "Sun Tzu",
+            "zh": "孙武"
+        },
+        "qid": "Q10040",
+        "region": "EastAsia",
+        "era": "Classical",
+        "tags": [
+            "theorist",
+            "strategist"
+        ],
+        "motifs": [
+            "deception_intel_gap",
+            "terrain_funneling",
+            "operational_depth"
+        ],
+        "scores": {
+            "battleValue": 78,
+            "strategicDepth": 85,
+            "casualtyRatio": 80,
+            "opponentWeight": 72,
+            "techEnvironment": 65,
+            "commandEntropy": 92,
+            "environmentConversion": 85,
+            "politicalResistance": 70,
+            "errorTolerance": 82,
+            "multiLineCooperation": 68,
+            "resourceConversion": 78,
+            "organizationGranularity": 80,
+            "troopConversion": 75,
+            "infoAsymmetry": 98,
+            "moraleAnchor": 85,
+            "commanderCharisma": 78,
+            "conquestStability": 65,
+            "institutionalInnovation": 95
+        },
+        "meta": {
+            "coverageC": 0.85,
+            "qualityQ": 0.82,
+            "sigma": 5.5
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q10040",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Sun_Tzu",
+                "zh": "https://zh.wikipedia.org/wiki/孙武"
+            },
+            "pageviews365ByLang": {
+                "en": 3200000,
+                "zh": 480000
+            },
+            "totalPageviews365": 3680000,
+            "extractedKeywords": [
+                "孙子兵法",
+                "知己知彼",
+                "不战而屈人之兵"
+            ]
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of Boju",
+                    "zh": "柏举之战"
+                }
+            }
+        ],
+        "birthYear": -544,
+        "deathYear": -496
+    },
+    {
+        "id": "zhuge_liang",
+        "name": "诸葛亮",
+        "wikiTitleByLang": {
+            "en": "Zhuge Liang",
+            "zh": "诸葛亮"
+        },
+        "qid": "Q193645",
+        "region": "EastAsia",
+        "era": "Classical",
+        "tags": [
+            "strategist",
+            "politician",
+            "inventor"
+        ],
+        "motifs": [
+            "deception_intel_gap",
+            "logistics_conversion",
+            "coalition_command"
+        ],
+        "scores": {
+            "battleValue": 72,
+            "strategicDepth": 88,
+            "casualtyRatio": 75,
+            "opponentWeight": 82,
+            "techEnvironment": 85,
+            "commandEntropy": 90,
+            "environmentConversion": 78,
+            "politicalResistance": 88,
+            "errorTolerance": 72,
+            "multiLineCooperation": 80,
+            "resourceConversion": 92,
+            "organizationGranularity": 95,
+            "troopConversion": 85,
+            "infoAsymmetry": 92,
+            "moraleAnchor": 78,
+            "commanderCharisma": 95,
+            "conquestStability": 70,
+            "institutionalInnovation": 90
+        },
+        "meta": {
+            "coverageC": 0.94,
+            "qualityQ": 0.85,
+            "sigma": 5.0
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q193645",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Zhuge_Liang",
+                "zh": "https://zh.wikipedia.org/wiki/诸葛亮"
+            },
+            "pageviews365ByLang": {
+                "en": 580000,
+                "zh": 1200000
+            },
+            "totalPageviews365": 1780000,
+            "extractedKeywords": [
+                "空城计",
+                "草船借箭",
+                "木牛流马",
+                "隆中对",
+                "出师表"
+            ]
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of Red Cliffs",
+                    "zh": "赤壁之战"
+                },
+                "matchedMotifs": [
+                    {
+                        "motif": "deception_intel_gap",
+                        "source": "keyword",
+                        "evidence": "草船借箭、借东风"
+                    }
+                ]
+            },
+            {
+                "titleByLang": {
+                    "en": "Northern Expeditions",
+                    "zh": "北伐"
+                }
+            }
+        ],
+        "birthYear": 181,
+        "deathYear": 234
+    },
+    {
+        "id": "baiqi",
+        "name": "白起",
+        "wikiTitleByLang": {
+            "en": "Bai Qi",
+            "zh": "白起"
+        },
+        "qid": "Q463501",
+        "region": "EastAsia",
+        "era": "Classical",
+        "tags": [
+            "ruthless",
+            "siege_master",
+            "infantry"
+        ],
+        "motifs": [
+            "double_envelopment",
+            "logistics_conversion",
+            "terrain_funneling"
+        ],
+        "scores": {
+            "battleValue": 98,
+            "strategicDepth": 88,
+            "casualtyRatio": 95,
+            "opponentWeight": 90,
+            "techEnvironment": 65,
+            "commandEntropy": 85,
+            "environmentConversion": 88,
+            "politicalResistance": 40,
+            "errorTolerance": 70,
+            "multiLineCooperation": 60,
+            "resourceConversion": 72,
+            "organizationGranularity": 82,
+            "troopConversion": 75,
+            "infoAsymmetry": 82,
+            "moraleAnchor": 75,
+            "commanderCharisma": 65,
+            "conquestStability": 55,
+            "institutionalInnovation": 45
+        },
+        "meta": {
+            "coverageC": 0.88,
+            "qualityQ": 0.85,
+            "sigma": 5.2
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q463501",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Bai_Qi",
+                "zh": "https://zh.wikipedia.org/wiki/白起"
+            },
+            "pageviews365ByLang": {
+                "en": 85000,
+                "zh": 620000
+            },
+            "totalPageviews365": 705000,
+            "extractedKeywords": [
+                "长平之战",
+                "杀神",
+                "战国四大名将"
+            ]
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of Changping",
+                    "zh": "长平之战"
+                },
+                "matchedMotifs": [
+                    {
+                        "motif": "double_envelopment",
+                        "source": "mapping",
+                        "evidence": "围歼赵军四十万"
+                    }
+                ]
+            }
+        ],
+        "birthYear": -332,
+        "deathYear": -257
+    },
+    {
+        "id": "cao_cao",
+        "name": "曹操",
+        "wikiTitleByLang": {
+            "en": "Cao Cao",
+            "zh": "曹操"
+        },
+        "qid": "Q8441",
+        "region": "EastAsia",
+        "era": "Classical",
+        "tags": [
+            "politician",
+            "poet",
+            "warlord"
+        ],
+        "motifs": [
+            "deception_intel_gap",
+            "logistics_conversion",
+            "coalition_command"
+        ],
+        "scores": {
+            "battleValue": 82,
+            "strategicDepth": 90,
+            "casualtyRatio": 75,
+            "opponentWeight": 85,
+            "techEnvironment": 72,
+            "commandEntropy": 88,
+            "environmentConversion": 75,
+            "politicalResistance": 92,
+            "errorTolerance": 78,
+            "multiLineCooperation": 82,
+            "resourceConversion": 88,
+            "organizationGranularity": 90,
+            "troopConversion": 85,
+            "infoAsymmetry": 88,
+            "moraleAnchor": 80,
+            "commanderCharisma": 90,
+            "conquestStability": 82,
+            "institutionalInnovation": 85
+        },
+        "meta": {
+            "coverageC": 0.95,
+            "qualityQ": 0.90,
+            "sigma": 4.5
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q8441",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Cao_Cao",
+                "zh": "https://zh.wikipedia.org/wiki/曹操"
+            },
+            "pageviews365ByLang": {
+                "en": 420000,
+                "zh": 980000
+            },
+            "totalPageviews365": 1400000,
+            "extractedKeywords": [
+                "官渡之战",
+                "挟天子以令诸侯",
+                "唯才是举"
+            ]
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of Guandu",
+                    "zh": "官渡之战"
+                }
+            },
+            {
+                "titleByLang": {
+                    "en": "Battle of Red Cliffs",
+                    "zh": "赤壁之战"
+                }
+            }
+        ],
+        "birthYear": 155,
+        "deathYear": 220
+    }
+]

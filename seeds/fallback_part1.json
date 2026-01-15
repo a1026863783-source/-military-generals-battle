@@ -1,0 +1,403 @@
+[
+    {
+        "id": "hannibal",
+        "name": "汉尼拔·巴卡",
+        "wikiTitleByLang": {
+            "en": "Hannibal",
+            "zh": "汉尼拔"
+        },
+        "qid": "Q2429",
+        "region": "MediterraneanMiddleEast",
+        "era": "Classical",
+        "tags": [
+            "cavalry",
+            "tactical_genius",
+            "strategist"
+        ],
+        "motifs": [
+            "double_envelopment",
+            "operational_depth",
+            "deception_intel_gap"
+        ],
+        "scores": {
+            "battleValue": 92,
+            "strategicDepth": 95,
+            "casualtyRatio": 88,
+            "opponentWeight": 90,
+            "techEnvironment": 70,
+            "commandEntropy": 88,
+            "environmentConversion": 85,
+            "politicalResistance": 55,
+            "errorTolerance": 72,
+            "multiLineCooperation": 65,
+            "resourceConversion": 60,
+            "organizationGranularity": 75,
+            "troopConversion": 70,
+            "infoAsymmetry": 90,
+            "moraleAnchor": 82,
+            "commanderCharisma": 88,
+            "conquestStability": 45,
+            "institutionalInnovation": 50
+        },
+        "meta": {
+            "coverageC": 0.95,
+            "qualityQ": 0.92,
+            "sigma": 4.2
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q2429",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Hannibal",
+                "zh": "https://zh.wikipedia.org/wiki/汉尼拔"
+            },
+            "pageviews365ByLang": {
+                "en": 2500000,
+                "zh": 180000,
+                "es": 320000
+            },
+            "totalPageviews365": 3000000
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of Cannae",
+                    "zh": "坎尼会战"
+                },
+                "matchedMotifs": [
+                    {
+                        "motif": "double_envelopment",
+                        "source": "mapping",
+                        "evidence": "Battle of Cannae → double_envelopment"
+                    }
+                ]
+            },
+            {
+                "titleByLang": {
+                    "en": "Battle of Trebia",
+                    "zh": "特雷比亚河战役"
+                }
+            },
+            {
+                "titleByLang": {
+                    "en": "Battle of Lake Trasimene",
+                    "zh": "特拉西美诺湖战役"
+                }
+            }
+        ],
+        "birthYear": -247,
+        "deathYear": -183
+    },
+    {
+        "id": "alexander",
+        "name": "亚历山大大帝",
+        "wikiTitleByLang": {
+            "en": "Alexander the Great",
+            "zh": "亚历山大大帝"
+        },
+        "qid": "Q8409",
+        "region": "MediterraneanMiddleEast",
+        "era": "Classical",
+        "tags": [
+            "cavalry",
+            "conqueror",
+            "empire_builder"
+        ],
+        "motifs": [
+            "operational_depth",
+            "double_envelopment",
+            "shock_morale_anchor"
+        ],
+        "scores": {
+            "battleValue": 95,
+            "strategicDepth": 98,
+            "casualtyRatio": 90,
+            "opponentWeight": 92,
+            "techEnvironment": 75,
+            "commandEntropy": 90,
+            "environmentConversion": 88,
+            "politicalResistance": 60,
+            "errorTolerance": 75,
+            "multiLineCooperation": 72,
+            "resourceConversion": 70,
+            "organizationGranularity": 80,
+            "troopConversion": 78,
+            "infoAsymmetry": 85,
+            "moraleAnchor": 95,
+            "commanderCharisma": 98,
+            "conquestStability": 40,
+            "institutionalInnovation": 65
+        },
+        "meta": {
+            "coverageC": 0.98,
+            "qualityQ": 0.95,
+            "sigma": 3.5
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q8409",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+                "zh": "https://zh.wikipedia.org/wiki/亚历山大大帝"
+            },
+            "pageviews365ByLang": {
+                "en": 5000000,
+                "zh": 350000
+            },
+            "totalPageviews365": 5350000
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of Gaugamela",
+                    "zh": "高加米拉战役"
+                },
+                "matchedMotifs": [
+                    {
+                        "motif": "operational_depth",
+                        "source": "mapping",
+                        "evidence": "远程机动作战"
+                    }
+                ]
+            },
+            {
+                "titleByLang": {
+                    "en": "Battle of Issus",
+                    "zh": "伊苏斯战役"
+                }
+            }
+        ],
+        "birthYear": -356,
+        "deathYear": -323
+    },
+    {
+        "id": "caesar",
+        "name": "尤利乌斯·凯撒",
+        "wikiTitleByLang": {
+            "en": "Julius Caesar",
+            "zh": "尤利乌斯·凯撒"
+        },
+        "qid": "Q1048",
+        "region": "Europe",
+        "era": "Classical",
+        "tags": [
+            "politician",
+            "conqueror",
+            "reformer"
+        ],
+        "motifs": [
+            "operational_depth",
+            "logistics_conversion",
+            "coalition_command"
+        ],
+        "scores": {
+            "battleValue": 88,
+            "strategicDepth": 92,
+            "casualtyRatio": 82,
+            "opponentWeight": 78,
+            "techEnvironment": 78,
+            "commandEntropy": 85,
+            "environmentConversion": 80,
+            "politicalResistance": 75,
+            "errorTolerance": 70,
+            "multiLineCooperation": 68,
+            "resourceConversion": 82,
+            "organizationGranularity": 88,
+            "troopConversion": 80,
+            "infoAsymmetry": 78,
+            "moraleAnchor": 85,
+            "commanderCharisma": 92,
+            "conquestStability": 70,
+            "institutionalInnovation": 85
+        },
+        "meta": {
+            "coverageC": 0.97,
+            "qualityQ": 0.94,
+            "sigma": 3.8
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q1048",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Julius_Caesar",
+                "zh": "https://zh.wikipedia.org/wiki/尤利乌斯·凯撒"
+            },
+            "pageviews365ByLang": {
+                "en": 4500000,
+                "zh": 280000
+            },
+            "totalPageviews365": 4780000
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of Alesia",
+                    "zh": "阿莱西亚之战"
+                }
+            },
+            {
+                "titleByLang": {
+                    "en": "Gallic Wars",
+                    "zh": "高卢战争"
+                }
+            }
+        ],
+        "birthYear": -100,
+        "deathYear": -44
+    },
+    {
+        "id": "napoleon",
+        "name": "拿破仑·波拿巴",
+        "wikiTitleByLang": {
+            "en": "Napoleon",
+            "zh": "拿破仑一世"
+        },
+        "qid": "Q517",
+        "region": "Europe",
+        "era": "EarlyModern",
+        "tags": [
+            "emperor",
+            "reformer",
+            "artillery"
+        ],
+        "motifs": [
+            "operational_depth",
+            "double_envelopment",
+            "deception_intel_gap"
+        ],
+        "scores": {
+            "battleValue": 94,
+            "strategicDepth": 96,
+            "casualtyRatio": 78,
+            "opponentWeight": 88,
+            "techEnvironment": 88,
+            "commandEntropy": 92,
+            "environmentConversion": 85,
+            "politicalResistance": 72,
+            "errorTolerance": 65,
+            "multiLineCooperation": 70,
+            "resourceConversion": 75,
+            "organizationGranularity": 90,
+            "troopConversion": 82,
+            "infoAsymmetry": 88,
+            "moraleAnchor": 90,
+            "commanderCharisma": 95,
+            "conquestStability": 55,
+            "institutionalInnovation": 88
+        },
+        "meta": {
+            "coverageC": 0.99,
+            "qualityQ": 0.96,
+            "sigma": 3.2
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q517",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Napoleon",
+                "zh": "https://zh.wikipedia.org/wiki/拿破仑一世"
+            },
+            "pageviews365ByLang": {
+                "en": 6000000,
+                "zh": 420000,
+                "fr": 1200000
+            },
+            "totalPageviews365": 7620000
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of Austerlitz",
+                    "zh": "奥斯特里茨战役"
+                },
+                "matchedMotifs": [
+                    {
+                        "motif": "deception_intel_gap",
+                        "source": "mapping",
+                        "evidence": "声东击西战术"
+                    }
+                ]
+            },
+            {
+                "titleByLang": {
+                    "en": "Battle of Waterloo",
+                    "zh": "滑铁卢战役"
+                }
+            }
+        ],
+        "birthYear": 1769,
+        "deathYear": 1821
+    },
+    {
+        "id": "genghis_khan",
+        "name": "成吉思汗",
+        "wikiTitleByLang": {
+            "en": "Genghis Khan",
+            "zh": "成吉思汗"
+        },
+        "qid": "Q720",
+        "region": "EastAsia",
+        "era": "Medieval",
+        "tags": [
+            "conqueror",
+            "cavalry",
+            "empire_builder"
+        ],
+        "motifs": [
+            "operational_depth",
+            "feigned_retreat",
+            "deception_intel_gap",
+            "logistics_conversion"
+        ],
+        "scores": {
+            "battleValue": 90,
+            "strategicDepth": 98,
+            "casualtyRatio": 72,
+            "opponentWeight": 85,
+            "techEnvironment": 72,
+            "commandEntropy": 88,
+            "environmentConversion": 92,
+            "politicalResistance": 68,
+            "errorTolerance": 78,
+            "multiLineCooperation": 85,
+            "resourceConversion": 88,
+            "organizationGranularity": 82,
+            "troopConversion": 90,
+            "infoAsymmetry": 92,
+            "moraleAnchor": 88,
+            "commanderCharisma": 95,
+            "conquestStability": 75,
+            "institutionalInnovation": 80
+        },
+        "meta": {
+            "coverageC": 0.96,
+            "qualityQ": 0.90,
+            "sigma": 4.5
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q720",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Genghis_Khan",
+                "zh": "https://zh.wikipedia.org/wiki/成吉思汗"
+            },
+            "pageviews365ByLang": {
+                "en": 4200000,
+                "zh": 580000,
+                "ru": 320000
+            },
+            "totalPageviews365": 5100000
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of the Badger Mouth",
+                    "zh": "野狐岭之战"
+                }
+            },
+            {
+                "titleByLang": {
+                    "en": "Mongol conquest of Khwarezmia",
+                    "zh": "蒙古征服花剌子模"
+                }
+            }
+        ],
+        "birthYear": 1162,
+        "deathYear": 1227
+    }
+]

@@ -1,0 +1,381 @@
+[
+    {
+        "id": "xiang_yu",
+        "name": "项羽",
+        "wikiTitleByLang": {
+            "en": "Xiang Yu",
+            "zh": "项羽"
+        },
+        "qid": "Q207696",
+        "region": "EastAsia",
+        "era": "Classical",
+        "tags": [
+            "cavalry",
+            "warrior",
+            "tragic_hero"
+        ],
+        "motifs": [
+            "shock_morale_anchor",
+            "double_envelopment"
+        ],
+        "scores": {
+            "battleValue": 98,
+            "strategicDepth": 70,
+            "casualtyRatio": 88,
+            "opponentWeight": 85,
+            "techEnvironment": 65,
+            "commandEntropy": 78,
+            "environmentConversion": 82,
+            "politicalResistance": 35,
+            "errorTolerance": 55,
+            "multiLineCooperation": 45,
+            "resourceConversion": 55,
+            "organizationGranularity": 65,
+            "troopConversion": 80,
+            "infoAsymmetry": 65,
+            "moraleAnchor": 98,
+            "commanderCharisma": 92,
+            "conquestStability": 25,
+            "institutionalInnovation": 30
+        },
+        "meta": {
+            "coverageC": 0.92,
+            "qualityQ": 0.88,
+            "sigma": 4.8
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q207696",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Xiang_Yu",
+                "zh": "https://zh.wikipedia.org/wiki/项羽"
+            },
+            "pageviews365ByLang": {
+                "en": 95000,
+                "zh": 720000
+            },
+            "totalPageviews365": 815000,
+            "extractedKeywords": [
+                "破釜沉舟",
+                "巨鹿之战",
+                "霸王别姬"
+            ]
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of Julu",
+                    "zh": "巨鹿之战"
+                },
+                "matchedMotifs": [
+                    {
+                        "motif": "shock_morale_anchor",
+                        "source": "keyword",
+                        "evidence": "《史记·项羽本纪》：破釜沉舟"
+                    }
+                ]
+            }
+        ],
+        "birthYear": -232,
+        "deathYear": -202
+    },
+    {
+        "id": "li_jing",
+        "name": "李靖",
+        "wikiTitleByLang": {
+            "en": "Li Jing (Tang dynasty)",
+            "zh": "李靖"
+        },
+        "qid": "Q712374",
+        "region": "EastAsia",
+        "era": "Medieval",
+        "tags": [
+            "cavalry",
+            "strategist",
+            "theorist"
+        ],
+        "motifs": [
+            "operational_depth",
+            "feigned_retreat",
+            "deception_intel_gap"
+        ],
+        "scores": {
+            "battleValue": 90,
+            "strategicDepth": 92,
+            "casualtyRatio": 85,
+            "opponentWeight": 82,
+            "techEnvironment": 72,
+            "commandEntropy": 90,
+            "environmentConversion": 88,
+            "politicalResistance": 78,
+            "errorTolerance": 82,
+            "multiLineCooperation": 75,
+            "resourceConversion": 80,
+            "organizationGranularity": 85,
+            "troopConversion": 82,
+            "infoAsymmetry": 88,
+            "moraleAnchor": 82,
+            "commanderCharisma": 80,
+            "conquestStability": 75,
+            "institutionalInnovation": 72
+        },
+        "meta": {
+            "coverageC": 0.85,
+            "qualityQ": 0.82,
+            "sigma": 5.5
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q712374",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Li_Jing_(Tang_dynasty)",
+                "zh": "https://zh.wikipedia.org/wiki/李靖"
+            },
+            "pageviews365ByLang": {
+                "en": 45000,
+                "zh": 380000
+            },
+            "totalPageviews365": 425000,
+            "extractedKeywords": [
+                "阴山之战",
+                "李卫公兵法"
+            ]
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Tang campaign against the Eastern Turks",
+                    "zh": "唐灭东突厥之战"
+                }
+            }
+        ],
+        "birthYear": 571,
+        "deathYear": 649
+    },
+    {
+        "id": "yue_fei",
+        "name": "岳飞",
+        "wikiTitleByLang": {
+            "en": "Yue Fei",
+            "zh": "岳飞"
+        },
+        "qid": "Q311234",
+        "region": "EastAsia",
+        "era": "Medieval",
+        "tags": [
+            "patriot",
+            "infantry",
+            "cavalry"
+        ],
+        "motifs": [
+            "shock_morale_anchor",
+            "logistics_conversion",
+            "terrain_funneling"
+        ],
+        "scores": {
+            "battleValue": 92,
+            "strategicDepth": 85,
+            "casualtyRatio": 90,
+            "opponentWeight": 88,
+            "techEnvironment": 70,
+            "commandEntropy": 85,
+            "environmentConversion": 82,
+            "politicalResistance": 30,
+            "errorTolerance": 75,
+            "multiLineCooperation": 70,
+            "resourceConversion": 78,
+            "organizationGranularity": 88,
+            "troopConversion": 90,
+            "infoAsymmetry": 75,
+            "moraleAnchor": 98,
+            "commanderCharisma": 95,
+            "conquestStability": 45,
+            "institutionalInnovation": 55
+        },
+        "meta": {
+            "coverageC": 0.90,
+            "qualityQ": 0.88,
+            "sigma": 4.8
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q311234",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Yue_Fei",
+                "zh": "https://zh.wikipedia.org/wiki/岳飞"
+            },
+            "pageviews365ByLang": {
+                "en": 120000,
+                "zh": 650000
+            },
+            "totalPageviews365": 770000,
+            "extractedKeywords": [
+                "岳家军",
+                "精忠报国",
+                "郾城大捷",
+                "还我河山"
+            ]
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of Yancheng",
+                    "zh": "郾城之战"
+                }
+            }
+        ],
+        "birthYear": 1103,
+        "deathYear": 1142
+    },
+    {
+        "id": "qi_jiguang",
+        "name": "戚继光",
+        "wikiTitleByLang": {
+            "en": "Qi Jiguang",
+            "zh": "戚继光"
+        },
+        "qid": "Q709382",
+        "region": "EastAsia",
+        "era": "EarlyModern",
+        "tags": [
+            "innovator",
+            "anti_piracy",
+            "trainer"
+        ],
+        "motifs": [
+            "terrain_funneling",
+            "logistics_conversion",
+            "coalition_command"
+        ],
+        "scores": {
+            "battleValue": 85,
+            "strategicDepth": 78,
+            "casualtyRatio": 92,
+            "opponentWeight": 75,
+            "techEnvironment": 88,
+            "commandEntropy": 80,
+            "environmentConversion": 85,
+            "politicalResistance": 72,
+            "errorTolerance": 80,
+            "multiLineCooperation": 82,
+            "resourceConversion": 85,
+            "organizationGranularity": 95,
+            "troopConversion": 92,
+            "infoAsymmetry": 78,
+            "moraleAnchor": 88,
+            "commanderCharisma": 82,
+            "conquestStability": 72,
+            "institutionalInnovation": 88
+        },
+        "meta": {
+            "coverageC": 0.85,
+            "qualityQ": 0.82,
+            "sigma": 5.5
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q709382",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Qi_Jiguang",
+                "zh": "https://zh.wikipedia.org/wiki/戚继光"
+            },
+            "pageviews365ByLang": {
+                "en": 35000,
+                "zh": 420000
+            },
+            "totalPageviews365": 455000,
+            "extractedKeywords": [
+                "戚家军",
+                "鸳鸯阵",
+                "纪效新书",
+                "抗倭"
+            ]
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Taizhou Campaign",
+                    "zh": "台州之战"
+                }
+            }
+        ],
+        "birthYear": 1528,
+        "deathYear": 1588
+    },
+    {
+        "id": "sun_bin",
+        "name": "孙膑",
+        "wikiTitleByLang": {
+            "en": "Sun Bin",
+            "zh": "孙膑"
+        },
+        "qid": "Q715845",
+        "region": "EastAsia",
+        "era": "Classical",
+        "tags": [
+            "strategist",
+            "tactician"
+        ],
+        "motifs": [
+            "deception_intel_gap",
+            "terrain_funneling",
+            "feigned_retreat"
+        ],
+        "scores": {
+            "battleValue": 88,
+            "strategicDepth": 85,
+            "casualtyRatio": 88,
+            "opponentWeight": 82,
+            "techEnvironment": 62,
+            "commandEntropy": 92,
+            "environmentConversion": 88,
+            "politicalResistance": 55,
+            "errorTolerance": 78,
+            "multiLineCooperation": 70,
+            "resourceConversion": 72,
+            "organizationGranularity": 78,
+            "troopConversion": 75,
+            "infoAsymmetry": 95,
+            "moraleAnchor": 80,
+            "commanderCharisma": 70,
+            "conquestStability": 55,
+            "institutionalInnovation": 80
+        },
+        "meta": {
+            "coverageC": 0.82,
+            "qualityQ": 0.78,
+            "sigma": 6.0
+        },
+        "sources": {
+            "wikidataUrl": "https://www.wikidata.org/wiki/Q715845",
+            "wikiUrlsByLang": {
+                "en": "https://en.wikipedia.org/wiki/Sun_Bin",
+                "zh": "https://zh.wikipedia.org/wiki/孙膑"
+            },
+            "pageviews365ByLang": {
+                "en": 65000,
+                "zh": 380000
+            },
+            "totalPageviews365": 445000,
+            "extractedKeywords": [
+                "围魏救赵",
+                "马陵之战",
+                "减灶计",
+                "孙膑兵法"
+            ]
+        },
+        "battles": [
+            {
+                "titleByLang": {
+                    "en": "Battle of Maling",
+                    "zh": "马陵之战"
+                },
+                "matchedMotifs": [
+                    {
+                        "motif": "deception_intel_gap",
+                        "source": "keyword",
+                        "evidence": "减灶计"
+                    }
+                ]
+            }
+        ],
+        "birthYear": -380,
+        "deathYear": -316
+    }
+]

@@ -1,0 +1,68 @@
+{
+    "plains": {
+        "name": "plains",
+        "nameZh": "平原",
+        "weights": {
+            "strategicDepth": 1.3,
+            "organizationGranularity": 1.2,
+            "environmentConversion": 0.7,
+            "multiLineCooperation": 1.1,
+            "troopConversion": 1.1
+        }
+    },
+    "river": {
+        "name": "river",
+        "nameZh": "河流",
+        "weights": {
+            "environmentConversion": 1.4,
+            "infoAsymmetry": 1.3,
+            "strategicDepth": 0.7,
+            "resourceConversion": 1.2,
+            "errorTolerance": 0.9
+        }
+    },
+    "mountain": {
+        "name": "mountain",
+        "nameZh": "山地",
+        "weights": {
+            "environmentConversion": 1.4,
+            "errorTolerance": 1.3,
+            "organizationGranularity": 0.7,
+            "commandEntropy": 1.2,
+            "moraleAnchor": 1.1
+        }
+    },
+    "forest": {
+        "name": "forest",
+        "nameZh": "森林",
+        "weights": {
+            "infoAsymmetry": 1.4,
+            "commandEntropy": 1.3,
+            "strategicDepth": 0.7,
+            "environmentConversion": 1.2,
+            "politicalResistance": 1.1
+        }
+    },
+    "desert": {
+        "name": "desert",
+        "nameZh": "沙漠",
+        "weights": {
+            "resourceConversion": 1.4,
+            "moraleAnchor": 1.3,
+            "troopConversion": 0.7,
+            "strategicDepth": 1.2,
+            "errorTolerance": 0.9
+        }
+    },
+    "urban": {
+        "name": "urban",
+        "nameZh": "城市",
+        "weights": {
+            "organizationGranularity": 1.4,
+            "politicalResistance": 1.3,
+            "strategicDepth": 0.7,
+            "infoAsymmetry": 1.2,
+            "commanderCharisma": 1.2
+        }
+    }
+}
